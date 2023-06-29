@@ -20,14 +20,6 @@ function Hero() {
           <div className='scroll-down'></div>
         </div>
 
-        <nav className='absolute top-0 right-0'>
-          <ul className='flex flex-row p-5'>
-            <li className='font-bold text-lg px-5 cursor-pointer hover:text-darkBrown transition duration-300'>Produits</li>
-            <li className='font-bold text-lg px-5 cursor-pointer hover:text-darkBrown'>À propos</li>
-            <li className='font-bold text-lg px-5 cursor-pointer hover:text-darkBrown'>Contact</li>
-          </ul>
-        </nav>
-
       </section>
 
 
