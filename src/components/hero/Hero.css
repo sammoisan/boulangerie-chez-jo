@@ -1,0 +1,88 @@
+.hero {
+  background-image: linear-gradient(
+      0deg,
+      rgba(161, 103, 74, 1) 0%,
+      rgba(255, 255, 255, 0) 10%
+    ),
+    url(../../../public/images/bread01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+}
+
+.title-shadow {
+  text-shadow: 2px 4px 4px rgba(0, 0, 0, 1);
+}
+
+#title {
+  animation-name: title;
+  animation-duration: 1.8s;
+  animation-fill-mode: both;
+}
+
+@keyframes title {
+  0% {
+    transform: translateY(55px) scale(0.96);
+    filter: blur(2px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0px)  scale(1);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+.scroll-down-container {
+  position: absolute;
+  bottom: 20px;
+}
+
+.scroll-down {
+  width: 24px;
+  height: 24px;
+
+  margin-bottom: 22px;
+
+  border-left: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+
+  -webkit-animation: sdb04 3s infinite;
+  animation: sdb04 3s infinite;
+}
+
+@-webkit-keyframes sdb04 {
+  0% {
+    -webkit-transform: rotate(-45deg) translate(0, 0);
+    opacity: 1;
+  }
+  20% {
+    -webkit-transform: rotate(-45deg) translate(-10px, 10px);
+    opacity: 0.4;
+  }
+  40% {
+    -webkit-transform: rotate(-45deg) translate(0, 0);
+    opacity: 1;
+  }
+}
+
+@keyframes sdb04 {
+  0% {
+    transform: rotate(-45deg) translate(0, 0);
+    opacity: 1;
+  }
+  20% {
+    transform: rotate(-45deg) translate(-10px, 10px);
+    opacity: 0.4;
+  }
+  40% {
+    transform: rotate(-45deg) translate(0, 0);
+    opacity: 1;
+  }
+}
