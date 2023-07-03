@@ -1,6 +1,7 @@
 import './Hero.css'
 import '../productItem/ProductItem';
 
+import HamburgerMenu from '../hamburgerMenu/HamburgerMenu';
 import ProductItem from '../productItem/ProductItem';
 import ShapeDivider from '../shapeDivider/ShapeDivider';
 
@@ -19,6 +20,27 @@ function Hero() {
         <div className='scroll-down-container flex flex-col justify-center items-center'>
           <div className='scroll-down'></div>
         </div>
+
+        {/* Hamburger button */}
+        <HamburgerMenu />
+
+        {/* Mobile Menu */}
+        <div id="menu" className='hidden absolute top-0 left-0 block z-20 bg-zinc-900 w-full h-full items-center justify-center'>
+          <ul className='flex flex-col p-5 text-white space-y-10'>
+            <li className='font-bold text-4xl cursor-pointer hover:text-darkBrown transition duration-300'>Produits</li>
+            <li className='font-bold text-4xl cursor-pointer hover:text-darkBrown transition duration-300'>À propos</li>
+            <li className='font-bold text-4xl cursor-pointe hover:text-darkBrown transition duration-300'>Contact</li>
+          </ul>
+        </div>
+
+        {/* Desktop Menu */}
+        <nav className='absolute top-0 right-0 hidden md:block'>
+          <ul className='flex flex-row p-5'>
+            <li className='font-bold text-lg px-5 cursor-pointer hover:text-darkBrown transition duration-300'>Produits</li>
+            <li className='font-bold text-lg px-5 cursor-pointer hover:text-darkBrown transition duration-300'>À propos</li>
+            <li className='font-bold text-lg px-5 cursor-pointer hover:text-darkBrown transition duration-300'>Contact</li>
+          </ul>
+        </nav>
 
       </section>
 
