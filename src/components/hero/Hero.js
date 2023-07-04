@@ -25,11 +25,11 @@ function Hero() {
         <HamburgerMenu />
 
         {/* Mobile Menu */}
-        <div id="menu" className='hidden absolute top-0 left-0 block z-20 bg-zinc-900 w-full h-full items-center justify-center'>
+        <div id="menu" className='hidden absolute top-0 left-0 block z-20 w-full h-full items-center justify-center'>
           <ul className='flex flex-col p-5 text-white space-y-10'>
-            <li className='font-bold text-4xl cursor-pointer hover:text-darkBrown transition duration-300'>Produits</li>
-            <li className='font-bold text-4xl cursor-pointer hover:text-darkBrown transition duration-300'>À propos</li>
-            <li className='font-bold text-4xl cursor-pointe hover:text-darkBrown transition duration-300'>Contact</li>
+            <li className='font-bold text-4xl cursor-pointer hover:text-lightBrown transition duration-300'>Produits</li>
+            <li className='font-bold text-4xl cursor-pointer hover:text-lightBrown transition duration-300'>À propos</li>
+            <li className='font-bold text-4xl cursor-pointe hover:text-lightBrown transition duration-300'>Contact</li>
           </ul>
         </div>
 

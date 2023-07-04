@@ -30,7 +30,7 @@
   }
 
   100% {
-    transform: translateX(0px)  scale(1);
+    transform: translateX(0px) scale(1);
     filter: blur(0px);
     opacity: 1;
   }
@@ -85,4 +85,11 @@
     transform: rotate(-45deg) translate(0, 0);
     opacity: 1;
   }
+}
+
+#menu {
+  background: transparentt;
+  background-color: rgba(0, 0, 0, 0.9) !important;
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
 }
