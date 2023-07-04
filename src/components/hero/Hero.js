@@ -96,7 +96,7 @@ function Hero() {
 
           </div>
 
-          <p className='font-title text-7xl drop-shadow-lg text-center pt-20 pb-10 md:text-8xl lg:text-9xl'>Là où le goût rencontre la perfection.</p>
+          <p className='font-title text-8xl drop-shadow-lg text-center pt-20 pb-10 md:text-8xl lg:text-9xl'>Là où le goût rencontre la perfection.</p>
         </section>
 
       </div>
