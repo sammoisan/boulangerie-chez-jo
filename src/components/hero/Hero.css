@@ -89,7 +89,7 @@
 
 #menu {
   background: transparentt;
-  background-color: rgba(0, 0, 0, 0.9) !important;
+  background-color: rgba(0, 0, 0, 0.7) !important;
   -webkit-backdrop-filter: blur(12px);
   backdrop-filter: blur(12px);
 }
